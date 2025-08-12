@@ -16,17 +16,17 @@ export const DraggableNode = ({ type, label }) => {
         style={{ 
           cursor: 'grab', 
           minWidth: '80px', 
-          height: '60px',
+          height: '52px',
           display: 'flex', 
           alignItems: 'center', 
-          borderRadius: '8px',
-          backgroundColor: '#1C2536',
+          borderRadius: '11px',
+          backgroundColor: '#191f2bff',
           justifyContent: 'center', 
           flexDirection: 'column'
         }} 
         draggable
       >
-          <span style={{ color: '#fff' }}>{label}</span>
+          <span style={{ color: '#f9f9f9ff' }}>{label}</span>
       </div>
     );
   };
