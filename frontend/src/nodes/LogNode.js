@@ -1,3 +1,4 @@
+//lognode
 import BaseNode from '../nodes/baseNode';
 
 export function LogNode({ id, data }) {
